@@ -17,7 +17,7 @@ function AdminHome() {
           <div className="userhome">
             <div className="homeright">
               <div className='leftcontent'>
-                <h1 style={{ color: 'black' }}>Golden Years Companion<br></br> Your Home, Your Health, Our Care</h1><br></br>
+                <h1 style={{ color: 'black' }}>Senior Harmony Companion!!<br></br> Your Home, Your Health, Our Care</h1><br></br>
                 <h3 style={{ color: "black" }}>Customized In-Home Care Solutions Catering <br></br> Each Stage of the Senior Experience</h3>
                 <br></br>
                 To care for those who once cared for us is <br></br>one of the highest honours,"

@@ -10,7 +10,7 @@ const AvailableService = () => {
             charge: '$50',
             duration: '2 hours',
             available: true,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://www.ecomaids.com/northfield-oh/wp-content/uploads/sites/33/2021/02/EcomaidsWideCounter1080-768x768-1.jpg'
         },
         {
             serviceType: 'Cooking',
@@ -18,7 +18,7 @@ const AvailableService = () => {
             charge: '$30',
             duration: '1 hour',
             available: false,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://images.pexels.com/photos/5093677/pexels-photo-5093677.jpeg?auto=compress&cs=tinysrgb&w=600'
         },
         {
             serviceType: 'Gardening',
@@ -26,7 +26,7 @@ const AvailableService = () => {
             charge: '$40',
             duration: '1.5 hours',
             available: true,
-            image: 'https://via.placeholder.com/150'
+            image: 'https://images.pexels.com/photos/5231088/pexels-photo-5231088.jpeg?auto=compress&cs=tinysrgb&w=600  '
         }
     ]);
 
