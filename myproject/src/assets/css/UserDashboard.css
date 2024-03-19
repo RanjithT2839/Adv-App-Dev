@@ -1,0 +1,70 @@
+.dashboard-container {
+    display: flex;
+    align-items: flex-start; 
+}
+body{
+    position: relative;
+
+}
+.dashboardlink
+{
+    text-decoration: none;
+}
+.usercontent
+{
+    margin-left: 10rem;
+}
+.user-info {
+    padding-bottom: 20px;
+    width: 70%; 
+    height: 100vh;
+    background-size: cover;
+    background: url('https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?w=996&t=st=1706671821~exp=1706672421~hmac=3f0baf490c0746e19c2cc91de4d68255c2bfb61951c9638001bab940dafa7050')no-repeat;
+}
+.appointments,
+.quick-links {
+    width: 40%; 
+}
+
+.image-container {
+    width: 50%; 
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.appointments ul,
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.appointments h3,
+.quick-links h3 {
+    text-align: center;
+}
+
+.appointments li,
+.quick-links li {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    
+    margin: 0px 10px 30px 20px;
+}
+.card p{
+    margin-top: 10px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+.logincontainer {
+  background: url('https://sunshinecares.in/images/nch.jpg')no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.userlogin {
+  width: 520px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-Left: -30rem;
+  margin-top: -100px;
+}
+
+.userlogin h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.userlogininputbox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.userlogininputbox input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 20px 45px 20px 20px;
+}
+
+.userlogininputbox input::placeholder {
+  color: black;
+}
+
+.userlogininputbox .icon {
+  position: absolute;
+  right: -190px;
+  top: 60%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.remember-forgot {
+
+  justify-content: space-between;
+  display: flex;
+}
+
+.userlogin .remember-forgot {
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+}
+
+.remember-forgot label input {
+  accent-color: black;
+  margin-right: 8px;
+}
+
+input {
+  border-color: solid black;
+}
+
+.remember-forgot a {
+  color: black;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.userloginbutton {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+
+.userlogin .register-link {
+  font-size: 14.5px;
+  text-align: center;
+}
+.register-link{
+  margin-top: 50px;
+}
+.userloginbutton:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.register-link p a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    width: 95%;
+  }
+}

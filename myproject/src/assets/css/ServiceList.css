@@ -1,0 +1,39 @@
+service.css
+.service-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.service-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-list li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.service-list li strong {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.service-list li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.service-list li button:hover {
+    background-color: #c82333;
+}

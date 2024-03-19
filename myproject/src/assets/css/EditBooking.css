@@ -1,0 +1,51 @@
+.editbooking {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5; /* Set your desired background color */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.eddit-content {
+  flex: 1; /* Takes up all available space */
+  float: right;
+}
+
+.edit-booking-container {
+  flex: 1; /* Takes up all available space */
+  background-color: #fff; /* Set your desired card background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  padding: 20px; /* Add padding inside the card */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editbookingbutton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editbookingbutton:hover {
+  background-color: #0056b3;
+}

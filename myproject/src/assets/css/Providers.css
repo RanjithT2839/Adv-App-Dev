@@ -1,0 +1,78 @@
+.destinations .grid li {
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.destinations .grid li.small {
+    flex-basis: 30%;
+}
+
+
+
+
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    width: 80%;
+}
+
+.text-block h4 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.text-block p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.small,
+.large {
+    position: relative;
+    overflow: hidden;
+}
+
+.small:hover .text-block
+{    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.destinations .grid li.large {
+    flex-basis: 70%;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    padding: -60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1100px) {
+
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 100%;
+    }
+}
