@@ -48,7 +48,6 @@ import Profile from './pages/Profile';
 import BookService from './pages/BookService';
 import BookingHistory from './pages/BookingHistory';
 import MainPage from "./pages/Main";
-import AdminLogin from './pages/Admin_Login';
 import AdminHome from "./pages/AdminHome";
 import AddService from './pages/AddService';
 import ViewBooking from './pages/ViewBooking';
@@ -58,13 +57,19 @@ import AdminAbout from "./pages/AdminAbout";
 import ViewService from "./pages/ViewService";
 import AvailableService from './pages/AvailableService';
 import AdminViewBook from "./pages/AdminViewBook";
-
+import { Suspense, lazy } from "react";
+import Sidebars from "./pages/Sidebars";
 function App() {
+  const AdminLogin = lazy(() => import ('./pages/Admin_Login'));
   return (
     <Router>
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path="/Admin_Login" element={<AdminLogin />} />
+        <Route path="/Admin_Login" element={
+          <Suspense fallback={"Loading...."}>
+            <AdminLogin />
+          </Suspense>
+        } />
         <Route path="/AdminHome" element={<AdminHome />} />
         <Route path="/AddService" element={<AddService />} />
         <Route path="/ViewService" element={<ViewService />} />
@@ -72,6 +77,7 @@ function App() {
         <Route path="/AdminAbout" element={<AdminAbout/>}/>
         <Route path="/AdminViewBook" element={<AdminViewBook/>}/>
         <Route path="/Main" element={<MainPage />} />
+        <Route path="/side" element={<Sidebars />} />
 
         <Route path="/AdminDashboard" element={<AdminDashboard />} />
         <Route path="/UserHome" element={<UserHome />} />

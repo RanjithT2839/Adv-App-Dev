@@ -21,7 +21,6 @@ function AdminHome() {
                 <h3 style={{ color: "black" }}>Customized In-Home Care Solutions Catering <br></br> Each Stage of the Senior Experience</h3>
                 <br></br>
                 To care for those who once cared for us is <br></br>one of the highest honours,"
-                <br></br>- Tia Walker.
                 <br></br>
                 We at Golden Home Healthcare endeavor to bring<br></br> healthcare to the doorstep of the elderly.
                 <br></br><br></br>

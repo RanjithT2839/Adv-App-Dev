@@ -6,7 +6,7 @@ import { GrUserSettings } from "react-icons/gr";
 
 const MainPage = () => {
     const [selectedRole, setSelectedRole] = useState(null);
-    const imgGif = 'https://cdn.pixabay.com/photo/2014/08/15/22/27/house-insurance-419058_1280.jpg';
+    const imgGif = '';
     return (
         <div className="main-page-container">
             <div className='mainpageright'>
