@@ -6,7 +6,7 @@ function AdminDashboard() {
     <div id="AdminDashboard">
       <section className="hero">
         <div className='overlay4'></div>
-        <div className="background-image"></div>
+
         <div className="hero-content-area">
           <h1 style={{ color: 'antiquewhite' }}>Empowering Aging Gracefully: Your Home, Your Health, Our Care</h1>
           <h3 style={{ color: "azure" }}>Tailored Home Care Solutions for Every Senior Journey</h3>
